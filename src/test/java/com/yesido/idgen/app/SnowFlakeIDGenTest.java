@@ -15,7 +15,7 @@ public class SnowFlakeIDGenTest {
         test2();
     }
 
-    private static void test() {
+    public static void test() {
         for (int i = 0; i < 10; i++) {
             new Thread(new Runnable() {
                 @Override
